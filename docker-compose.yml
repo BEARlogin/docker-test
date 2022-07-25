@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+#  process:
+#    build:
+#      context: process
+#    volumes:
+#      - "./output:/app/output"
+#  test:
+#    build:
+#      context: test
+#    depends_on:
+#      - process
+#    volumes:
+#      - "./output:/app/output"
+  one:
+    build:
+      context: one
+    volumes:
+      - "./output:/app/output"
